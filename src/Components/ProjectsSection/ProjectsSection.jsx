@@ -1,6 +1,6 @@
-import "./Projects.css";
+import "./ProjectsSection.css";
 
-function Projects() {
+function ProjectsSection() {
   return (
     <>
       <section id="projects" className="projects sec-pad">
@@ -17,21 +17,20 @@ function Projects() {
             <div className="projects__row">
               <div className="projects__row-img-cont">
                 <img
-                  src="./assets/jpeg/project-mockup-example.jpeg"
+                  src="./assets/projectsImg/socailMedia.png"
                   alt="Software Screenshot"
                   className="projects__row-img"
                   loading="lazy"
                 />
               </div>
               <div className="projects__row-content">
-                <h3 className="projects__row-content-title">Project 1</h3>
+                <h3 className="projects__row-content-title">Socail Media</h3>
                 <p className="projects__row-content-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium.
+                  Socail Media MERN Stack Application with Authentication and
+                  CRUD Operations.
                 </p>
                 <a
-                  href="./project-1.html"
+                  href=""
                   className="btn btn--med btn--theme dynamicBgClr"
                   target="_blank"
                 >
@@ -42,18 +41,16 @@ function Projects() {
             <div className="projects__row">
               <div className="projects__row-img-cont">
                 <img
-                  src="./assets/jpeg/project-mockup-example.jpeg"
+                  src="./assets/projectsImg/linkedin.png"
                   alt="Software Screenshot"
                   className="projects__row-img"
                   loading="lazy"
                 />
               </div>
               <div className="projects__row-content">
-                <h3 className="projects__row-content-title">Project 2</h3>
+                <h3 className="projects__row-content-title">Linkedin</h3>
                 <p className="projects__row-content-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium.
+                  Linkedin with FireBase and Reactjs with Authentication and basic CRUD Operations
                 </p>
                 <a
                   href="./project-2.html"
@@ -67,21 +64,19 @@ function Projects() {
             <div className="projects__row">
               <div className="projects__row-img-cont">
                 <img
-                  src="./assets/jpeg/project-mockup-example.jpeg"
+                  src="./assets/projectsImg/hiringMine.png"
                   alt="Software Screenshot"
                   className="projects__row-img"
                   loading="lazy"
                 />
               </div>
               <div className="projects__row-content">
-                <h3 className="projects__row-content-title">Project 3</h3>
+                <h3 className="projects__row-content-title">Hiring Mine</h3>
                 <p className="projects__row-content-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  facilis tempora, explicabo quae quod deserunt eius sapiente
-                  praesentium.
+                  Jobs website with MERN Stack Development 
                 </p>
                 <a
-                  href="./project-3.html"
+                  href=""
                   className="btn btn--med btn--theme dynamicBgClr"
                   target="_blank"
                 >
@@ -96,4 +91,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectsSection;

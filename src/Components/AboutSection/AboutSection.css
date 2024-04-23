@@ -44,6 +44,12 @@
     margin-bottom: 4rem;
   }
 
+  .about__content-details-highlight {
+    color: #0062b9;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
 
 
   .projects__row {

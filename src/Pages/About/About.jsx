@@ -1,10 +1,15 @@
 import React from 'react'
+import NavBar from '../../Components/NavBar/NavBar'
+import AboutSection from '../../Components/AboutSection/AboutSection'
+import Footer from '../../Components/Footer/Footer'
 
 function About() {
   return (
-    <div>
-      About
-    </div>
+    <>
+    <NavBar />
+    <AboutSection />
+    <Footer />
+    </>
   )
 }
 
