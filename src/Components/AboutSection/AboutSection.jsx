@@ -1,4 +1,5 @@
 import "./AboutSection.css";
+import { skills } from "../../data.jsx";
 
 function AboutSection() {
   return (
@@ -17,15 +18,26 @@ function AboutSection() {
               <h3 className="about__content-title">Get to know me!</h3>
               <div className="about__content-details">
                 <p className="about__content-details-para">
-
-
-
-
-
-                  I'm a <strong> MERN-Stack Web Developer </strong> building and managing the Websites that leads to the success of the overall product. Check out some of my work in the <strong> Projects </strong>section.
+                  I'm a <strong> MERN-Stack Web Developer </strong> building and
+                  managing the Websites that leads to the success of the overall
+                  product. Check out some of my work in the{" "}
+                  <strong> Projects </strong>section.
                 </p>
                 <p className="about__content-details-para">
-                I also like sharing content related to the stuff that I have learned over the years in <strong> Web Development </strong> so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a href="https://www.linkedin.com/in/muhammad-haroon-73ba8227b/" target="_blank" className="about__content-details-highlight"> Linkedin </a>  where I post useful content related to Web Development and Programming.
+                  I also like sharing content related to the stuff that I have
+                  learned over the years in <strong> Web Development </strong>{" "}
+                  so it can help other people of the Dev Community. Feel free to
+                  Connect or Follow me on my{" "}
+                  <a
+                    href="https://www.linkedin.com/in/muhammad-haroon-73ba8227b/"
+                    target="_blank"
+                    className="about__content-details-highlight"
+                  >
+                    {" "}
+                    Linkedin{" "}
+                  </a>{" "}
+                  where I post useful content related to Web Development and
+                  Programming.
                 </p>
               </div>
               <a
@@ -38,13 +50,9 @@ function AboutSection() {
             <div className="about__content-skills">
               <h3 className="about__content-title">My Skills</h3>
               <div className="skills">
-                <div className="skills__skill">HTML</div>
-                <div className="skills__skill">CSS</div>
-                <div className="skills__skill">JavaScript</div>
-                <div className="skills__skill">React</div>
-                <div className="skills__skill">Nodejs</div>
-                <div className="skills__skill">Expressjs</div>
-                <div className="skills__skill">MongoDB</div>
+                {skills.map((skill) => (
+                  <div className="skills__skill">{skill}</div>
+                ))}
               </div>
             </div>
           </div>

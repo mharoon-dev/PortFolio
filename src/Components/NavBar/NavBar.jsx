@@ -76,12 +76,6 @@ function NavBar() {
                 <Link to="/projects">Projects</Link>
               </a>
             </li>
-            <li className="header__link-wrapper">
-              <a className="header__link">
-                {" "}
-                <Link to="/contact">Contact</Link>{" "}
-              </a>
-            </li>
           </ul>
         </div>
       </div>

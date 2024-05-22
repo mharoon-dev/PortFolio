@@ -58,3 +58,20 @@ export const projects = [
     ],
   },
 ];
+
+export const skills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Nodejs",
+  "Express",
+  "MongoDB",
+  "FireBase",
+  "Material UI",
+  "Styled Components",
+  "Git",
+  "Github",
+  "Multer",
+  "Cloudinary",
+];
