@@ -23,20 +23,17 @@ function NavBar() {
   return (
     <header className="header">
       <div className="header__content">
-        <div
-          className="header__logo-container"
-          onClick={() => {
-            window.location.href = "index.html";
-          }}
-        >
+        <div className="header__logo-container">
           <div className="header__logo-img-cont">
             <img
-              src="./assets/me.jpg"
+              src="/assets/me.jpg"
               alt="Ram Maheshwari Logo Image"
               className="header__logo-img"
             />
           </div>
-          <span className="header__logo-sub"><Link to="/">M.Haroon</Link></span>
+          <Link to="/">
+            <span className="header__logo-sub">M.Haroon</span>
+          </Link>
         </div>
         <div className="header__main" style={{ marginTop: "0.25rem" }}>
           <div
@@ -49,7 +46,7 @@ function NavBar() {
             }}
           >
             <img
-              src="./assets/svg/ham-menu.svg"
+              src="/assets/svg/ham-menu.svg"
               alt="hamburger menu"
               className={`header__main-ham-menu ${
                 crossbtnDisplay ? "d-none" : ""
@@ -126,17 +123,6 @@ function NavBar() {
               <a href="./index.html#projects">
                 {" "}
                 <Link to="/projects">Projects</Link>{" "}
-              </a>
-            </li>
-            <li
-              className="header__sm-menu-link"
-              onClick={() => {
-                setIsSmallMenuActive(false);
-              }}
-            >
-              <a href="./index.html#contact">
-                {" "}
-                <Link to="/contact">Contact</Link>{" "}
               </a>
             </li>
           </ul>

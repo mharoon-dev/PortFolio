@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom";
 import "./ProjectsSection.css";
+import { projects } from "../../data.jsx";
+import SingleProject from "../SingleProject/SingleProject.jsx";
 
 function ProjectsSection() {
   return (
@@ -14,76 +17,9 @@ function ProjectsSection() {
           </h2>
 
           <div className="projects__content">
-            <div className="projects__row">
-              <div className="projects__row-img-cont">
-                <img
-                  src="./assets/projectsImg/socailMedia.png"
-                  alt="Software Screenshot"
-                  className="projects__row-img"
-                  loading="lazy"
-                />
-              </div>
-              <div className="projects__row-content">
-                <h3 className="projects__row-content-title">Socail Media</h3>
-                <p className="projects__row-content-desc">
-                  Socail Media MERN Stack Application with Authentication and
-                  CRUD Operations.
-                </p>
-                <a
-                  href=""
-                  className="btn btn--med btn--theme dynamicBgClr"
-                  target="_blank"
-                >
-                  Case Study
-                </a>
-              </div>
-            </div>
-            <div className="projects__row">
-              <div className="projects__row-img-cont">
-                <img
-                  src="./assets/projectsImg/linkedin.png"
-                  alt="Software Screenshot"
-                  className="projects__row-img"
-                  loading="lazy"
-                />
-              </div>
-              <div className="projects__row-content">
-                <h3 className="projects__row-content-title">Linkedin</h3>
-                <p className="projects__row-content-desc">
-                  Linkedin with FireBase and Reactjs with Authentication and basic CRUD Operations
-                </p>
-                <a
-                  href="./project-2.html"
-                  className="btn btn--med btn--theme dynamicBgClr"
-                  target="_blank"
-                >
-                  Case Study
-                </a>
-              </div>
-            </div>
-            <div className="projects__row">
-              <div className="projects__row-img-cont">
-                <img
-                  src="./assets/projectsImg/hiringMine.png"
-                  alt="Software Screenshot"
-                  className="projects__row-img"
-                  loading="lazy"
-                />
-              </div>
-              <div className="projects__row-content">
-                <h3 className="projects__row-content-title">Hiring Mine</h3>
-                <p className="projects__row-content-desc">
-                  Jobs website with MERN Stack Development 
-                </p>
-                <a
-                  href=""
-                  className="btn btn--med btn--theme dynamicBgClr"
-                  target="_blank"
-                >
-                  Case Study
-                </a>
-              </div>
-            </div>
+            {projects.map((project) => {
+              return <SingleProject key={project.name} project={project} />;
+            })}
           </div>
         </div>
       </section>
