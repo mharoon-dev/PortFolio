@@ -11,8 +11,9 @@ function ProjectsSection() {
           <h2 className="heading heading-sec heading-sec__mb-bg">
             <span className="heading-sec__main">Projects</span>
             <span className="heading-sec__sub">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-              facilis tempora explicabo quae quod deserunt eius sapiente
+              Here are some of the projects I have worked on
+              <br />
+              Check them out!
             </span>
           </h2>
 
