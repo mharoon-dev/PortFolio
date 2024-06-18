@@ -57,7 +57,7 @@ export const projects = [
       "Hiring Mine is an online platform where people can find and apply for jobs. It is a MERN stack application with authentication and basic CRUD operations.",
     image: "./assets/projectsImg/hiringMine.png",
     githubUrl: "https://github.com/mharoon-dev/Hiring-Mine_Mern",
-    liveUrl: "",
+    liveUrl: "https://hiring-mine.vercel.app/",
     tools: [
       "HTML",
       "CSS",
