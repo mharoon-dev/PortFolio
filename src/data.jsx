@@ -21,6 +21,27 @@ export const projects = [
     ],
   },
   {
+    name: "Attendance Management System",
+    description:
+      "👨‍🏫 CRUD operations for Courses, Batches, Slots, Teachers, Students  Manage Holidays.",
+    aboutProject:
+      "👨‍🏫 Admin Dashboard features include: CRUD operations for Courses, Batches, Slots, Teachers, Students  Manage Holidays  Smart Attendance Marking based on real-time slots  Automated Absent Marking via a cron job running every night at 11:55 PM  Attendance filtering for any course, batch, or slot  Authentication & Logout functionality  Dark & Light theme toggle 🌗",
+    image: "./assets/projectsImg/attendace.png",
+    githubUrl: "https://github.com/mharoon-dev/final-hackathon-Backend",
+    liveUrl: "https://attandences-portal-frontend.vercel.app/",
+    tools: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Nodejs",
+      "Express",
+      "MongoDB",
+      "FireBase",
+      "Material UI",
+    ],
+  },
+  {
     name: "Linkedin",
     description:
       "Linkedin with FireBase and Reactjs with Authentication and basic CRUD Operations",
