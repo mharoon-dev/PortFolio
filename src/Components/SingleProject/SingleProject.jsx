@@ -23,7 +23,7 @@ const SingleProject = ({ project }) => {
             to={`/project/${projectName}`}
             className="btn btn--med btn--theme dynamicBgClr"
           >
-            Case Study
+            View Project
           </Link>
         </div>
       </div>
