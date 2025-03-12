@@ -1,5 +1,26 @@
 export const projects = [
   {
+    name: "AI-Chatbot",
+    description:
+      "🚀 I have developed an AI Chatbot 🤖 using the MERN Stack 🖥️ and Gemini API 🧠 to provide a seamless and interactive user experience..",
+    aboutProject:
+      "🚀 I have developed an AI Chatbot 🤖 using the MERN Stack 🖥️ and Gemini API 🧠 to provide a seamless and interactive user experience. This chatbot includes essential features like authentication 🔐 (signup, login, logout), chat with AI 💬 for real-time conversations, chat history 📜 to access past interactions, and a search feature 🔍 to quickly find previous chats. Built with MongoDB, Express.js, React.js, and Node.js ⚡, this chatbot ensures a secure 🔒, scalable 📈, and user-friendly 🎯 experience.",
+    image: "./assets/projectsImg/ai-chatbot.png",
+    githubUrl: "https://github.com/mharoon-dev/AI-chatbot-server",
+    liveUrl: "https://ai-chatbot-client-iota.vercel.app/",
+    tools: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Nodejs",
+      "Express",
+      "MongoDB",
+      "Cloudinary",
+      "Gemini API",
+    ],
+  },
+  {
     name: "Loan Application",
     description:
       "I have developed a Loan Application with a seamless and automated process using the MERN stack to simplify loan requests and approvals.",
